@@ -217,6 +217,9 @@ footer{
 }
 .titulo_local{
     margin-left: 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
 }
 #id_li-1{
     margin: 10px;
@@ -253,7 +256,7 @@ footer{
  
  }
  .div_header{
-     height: 25px;
+     height: 2px;
      padding: 0;
  }
 
