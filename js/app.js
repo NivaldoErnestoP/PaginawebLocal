@@ -9,20 +9,9 @@ var body = document.querySelector(".body");
     var img = document.querySelector(".img");
     
 
-
-    img.addEventListener("mouseover",()=>{
-        body.style.overflow="visible";
-
-    });
     icono.addEventListener("click",()=>{
         nav_menu.classList.toggle("nav-menu");   
     });
-
-    icono.addEventListener("click", ()=>{
-        body.style.overflow="hidden";
-    });
-
-
 
 
 }
