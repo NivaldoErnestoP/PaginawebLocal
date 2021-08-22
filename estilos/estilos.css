@@ -186,6 +186,8 @@ footer{
    
 .nav-menu{
     display: none;
+    border: 1px solid #000;
+    
 }
 #menu{ 
     position: fixed;
@@ -211,7 +213,6 @@ footer{
     align-items: center;
     margin-top: auto;
     padding: 40px;
-    border: 1px solid #000;
     height: auto;
     transform: translateY(30px);
 }
@@ -224,7 +225,7 @@ footer{
     padding: 25px;
     border: none;
    background-color: rgb(210, 210, 210); 
-   box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 2px 0px; 
+   box-shadow: rgba(58, 58, 90, 0.2) 0px 2px 2px 0px; 
    cursor: pointer; 
    list-style: none;
 
@@ -251,6 +252,10 @@ footer{
     cursor: pointer; 
     
  
+ }
+ .div_header{
+     height: 25px;
+     padding: 0;
  }
 
 }
