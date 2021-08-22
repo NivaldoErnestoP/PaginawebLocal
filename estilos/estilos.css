@@ -50,7 +50,7 @@
 
 .link_nav{
    text-decoration: none;
-   color: rgb(118, 118, 118);
+   color: rgb(94, 94, 94);
    font-size: 18px;
    font-weight: 600;
 
@@ -191,21 +191,29 @@ footer{
     position: fixed;
     left: 0;  
     width: 100%;
-    background-color: #ffffff;
     text-align: center;
     margin: auto;
     margin-top: 30px;
-    background-color: #fff;
+        background-color: #e9e9e9;
     height: 100%;
     padding: 20px;
     
+}
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+
 }
 .div_li-1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
-    
+    margin-top: auto;
+    padding: 40px;
+    border: 1px solid #000;
+    height: auto;
+    transform: translateY(30px);
 }
 .titulo_local{
     margin-left: 50px;
@@ -219,6 +227,7 @@ footer{
    box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 2px 0px; 
    cursor: pointer; 
    list-style: none;
+
 
   }
   #id_li-1:hover{
