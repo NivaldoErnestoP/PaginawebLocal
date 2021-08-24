@@ -1,0 +1,112 @@
+
+/*Habitacion*/
+.header_habitacion{
+    padding: 2rem 0;
+    background-color: rgba(182, 121, 67, 0.913);
+
+}
+.titulo-local{
+    color: rgb(0, 0, 0);
+    
+}
+
+.link_nav{
+    color: rgb(36, 35, 35);
+    
+}
+
+footer{
+    background-color: rgba(182, 121, 67, 0.913);
+}
+ .p_copy #p_redes{
+    color: #000;
+}
+#movil{
+    color: #fff;
+}
+@media (max-width:768px){
+   
+    .nav-menu{
+        display: none;
+        
+    }
+    #menu{ 
+        position: fixed;
+        left: 0;  
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+            
+    background-color: rgba(182, 121, 67, 0.913);
+        height: 100%;
+        padding: 20px;
+        
+    }
+    .header_habitacion{
+        position: fixed;
+        left: 0;
+        right: 0;
+    
+    }
+    .div_li-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: auto;
+        padding: 40px;
+        height: auto;
+        transform: translateY(30px);
+    }
+    .titulo-local{
+        margin-left: 50px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0;
+    }
+    #id_li-1{
+        margin: 10px;
+        width: 400px;
+        padding: 25px;
+        border: none;
+       background-color:rgba(70, 54, 39, 0.913);
+       box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px 0px; 
+       cursor: pointer; 
+       list-style: none;
+    
+    
+      }
+      #id_li-1:hover{
+          background-color:rgba(128, 93, 60, 0.913);
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px 0px; 
+          list-style: none;
+    
+      }
+      .link_nav{
+          color: rgb(255, 255, 255); 
+          text-transform: none;
+          font-family: Arial, Helvetica, sans-serif;
+    
+      }
+      .class-toggle{
+        color: #000;
+        background: none;
+        border: none;
+        font-size: 30px;
+        display: flex; 
+        visibility: visible;
+        cursor: pointer; 
+        
+     
+     }
+     .div_header{
+         height: 2px;
+         padding: 0;
+     }
+    
+    }
+    
+    
+    
+    
+    
